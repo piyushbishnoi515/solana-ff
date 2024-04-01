@@ -27,6 +27,28 @@
     font-weight: 400;
     line-height: 32.4px;
     color: black;
+    position: relative;
+}
+
+.n-links::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -3px;
+    left: 50%;
+    background-color: #F4241E;
+    transform: translate(50%);
+    transition: all 0.3s linear;
+}
+
+.c-pointer {
+    cursor: pointer;
+}
+
+.n-links:hover::after {
+    left: -50%;
+    width: 100%;
 }
 
 .n-links:hover {
@@ -48,10 +70,17 @@
     transition: 0.3s;
 }
 
+.bg-img {
+    background-image: url(../image/sec-1img.png);
+    background-size: cover;
+    min-height: 40vh;
+    background-repeat: no-repeat;
+}
+
 .n-btn:hover {
     background-color: red;
     color: white;
-    
+
 }
 
 .gap-38 {
