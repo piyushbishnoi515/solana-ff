@@ -42,8 +42,44 @@
     transition: all 0.3s linear;
 }
 
+.welcome {
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: black;
+    text-align: center;
+}
+
 .c-pointer {
     cursor: pointer;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.p-absolute {
+    position: absolute;
+
+}
+
+.open-img {
+    bottom: -31%;
+    right: 23%;
+
+}
+
+.p-relative {
+    position: relative;
+}
+
+.f-direction-c {
+    flex-direction: column;
 }
 
 .n-links:hover::after {
