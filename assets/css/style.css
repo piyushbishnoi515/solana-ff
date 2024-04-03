@@ -110,7 +110,8 @@
     margin-left: -12px;
     margin-right: -12px;
 }
-.col-3{
+
+.col-3 {
     width: 25%;
     padding-left: 12px;
     padding-right: 12px;
@@ -140,7 +141,8 @@
     position: absolute;
 
 }
-.mt-24{
+
+.mt-24 {
     margin-top: 24px;
 }
 
@@ -167,6 +169,137 @@
 .burger-4 {
     top: 45%;
     left: 18%;
+}
+
+.supplies {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    color: white;
+    padding-top: 29px;
+}
+
+.number {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    color: white;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.card {
+    width: 50%;
+    padding: 0px 30px;
+}
+
+.bg-color {
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.card-tex {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: black;
+}
+
+.list {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: black;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 3px;
+    background-color: #F4241E;
+    left: 50%;
+
+
+}
+
+.dot-l::after {
+    content: '';
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: -12px;
+    z-index: 2;
+    top: 0%;
+}
+
+.l-50 {
+    left: 50%;
+
+}
+
+.dot-r::after {
+    content: '';
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: -12px;
+    z-index: 2;
+    top: 0%;
+}
+
+.left-50 {
+    left: 50%;
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
+
+.pt-40 {
+    padding-bottom: 40px;
+}
+
+.pb58 {
+    padding-bottom: 58px;
+}
+
+.p-tex {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    color: white;
+
+}
+
+.bg-red {
+    background-color: #F4241E;
 }
 
 .burger-5 {
