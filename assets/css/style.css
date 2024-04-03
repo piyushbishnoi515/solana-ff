@@ -200,12 +200,14 @@
 .card {
     width: 50%;
     padding: 0px 30px;
+    border-radius: 10px;
 }
 
 .bg-color {
     background-color: white;
     color: black;
     padding: 10px;
+    border-radius: 10px;
 }
 
 .card-tex {
@@ -268,9 +270,38 @@
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    right: -12px;
+    right: -14px;
     z-index: 2;
     top: 0%;
+}
+
+.s6b1 {
+    top: 5%;
+    left: 25%;
+}
+
+.s6b3 {
+    top: 39%;
+    left: 7%;
+}
+
+.s6b2 {
+    bottom: 3%;
+    left: 7%;
+}
+
+.s6b4 {
+    top: 57%;
+    left: 27%;
+}
+
+.s6b5 {
+    top: 5%;
+    right: 5%;
+}
+
+.z-1 {
+    z-index: 1;
 }
 
 .left-50 {
@@ -296,6 +327,20 @@
     line-height: 32.4px;
     color: white;
 
+}
+
+.tex-align {
+    text-align: center;
+}
+
+.roadmap {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    color: black;
+    padding-top: 70px;
+    padding-bottom: 90px;
 }
 
 .bg-red {
@@ -382,6 +427,10 @@
 
 .justify-between {
     justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
 }
 
 .align-item {
