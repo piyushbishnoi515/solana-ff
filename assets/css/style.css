@@ -97,6 +97,12 @@
     padding-bottom: 27px;
 }
 
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .col-6 {
     width: 50%;
     padding-left: 12px;
@@ -198,7 +204,7 @@
 }
 
 .card {
-    width: 50%;
+    width: 100%;
     padding: 0px 30px;
     border-radius: 10px;
 }
@@ -230,9 +236,7 @@
     gap: 10px;
 }
 
-.pb-30 {
-    padding-bottom: 30px;
-}
+
 
 .timeline::after {
     content: '';
@@ -241,7 +245,7 @@
     height: 100%;
     width: 3px;
     background-color: #F4241E;
-    left: 50%;
+    left: 0%;
 
 
 }
@@ -254,12 +258,13 @@
     border-radius: 50%;
     position: absolute;
     left: -12px;
+
     z-index: 2;
     top: 0%;
 }
 
 .l-50 {
-    left: 50%;
+    left: 0%;
 
 }
 
@@ -273,6 +278,7 @@
     right: -14px;
     z-index: 2;
     top: 0%;
+    left: -12px;
 }
 
 .s6b1 {
@@ -300,6 +306,21 @@
     right: 5%;
 }
 
+.s6b6 {
+    top: 34%;
+    right: 27%;
+}
+
+.s6b7 {
+    top: 78%;
+    right: 4%;
+}
+
+.s6b8 {
+    bottom: 2%;
+    right: 30%;
+}
+
 .z-1 {
     z-index: 1;
 }
@@ -308,12 +329,10 @@
     left: 50%;
 }
 
-.pt-40 {
-    padding-top: 40px;
-}
 
-.pt-40 {
-    padding-bottom: 40px;
+
+.pb-70 {
+    padding-bottom: 70px;
 }
 
 .pb58 {
@@ -435,4 +454,251 @@
 
 .align-item {
     align-items: center;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.jhone {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    color: black;
+    padding-top: 26px;
+}
+
+.manager {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: center;
+    color: black;
+}
+
+.pb-68 {
+    padding-bottom: 68px;
+}
+
+.amet {
+    padding-top: 21px;
+    padding-bottom: 21px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    color: black;
+}
+
+.Enim {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    color: #4D4813;
+
+}
+
+.bg-yeello {
+    background-color: #F6E300;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.f-direction-c {
+    flex-direction: column;
+}
+
+
+.box {
+    position: relative;
+    min-height: 74px;
+    overflow: hidden;
+    background-color: #FFF03F;
+    max-width: 992px;
+    width: 100%;
+}
+
+.hide-text {
+    position: absolute;
+    top: -100%;
+}
+
+.active {
+    position: relative;
+    top: 0%;
+}
+
+.iconup {
+    transform: rotateX(180deg);
+}
+
+.n-links {
+    display: none;
+}
+
+.n-btn {
+    display: none;
+}
+
+.pt-8 {
+    padding-top: 8px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.pb-70 {
+    padding-bottom: 70px-;
+}
+
+.menuicon {
+    display: flex;
+}
+
+.burger-t {
+    display: none;
+}
+
+.burger-3 {
+    display: none;
+}
+
+.burger-4 {
+    display: none;
+}
+
+.burger-5 {
+    display: none;
+}
+
+.burger-7 {
+    display: none;
+}
+
+.f-direction-c-r {
+    flex-direction: column-reverse;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+@media (min-width:576px) {
+    .menuicon {
+        display: flex;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-sm-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+}
+
+@media (min-width:768px) {
+    .col-md-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .burger-3 {
+        display: flex;
+    }
+
+    .burger-4 {
+        display: flex;
+    }
+
+    .burger-5 {
+        display: flex;
+    }
+
+    .burger-7 {
+        display: flex;
+    }
+
+    .col-md-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width:992px) {
+    .col-lg-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .timeline::after {
+        left: 50%;
+
+    }
+
+    .l-50 {
+        left: 50%;
+
+    }
+
+    .col-lg-3 {
+        width: 25%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .dot-r::after {
+        right: -12px;
+        left: auto;
+    }
+
+    .card {
+        width: 50%;
+    }
+
+    .f-d-lg-r {
+        flex-direction: row;
+    }
+}
+
+@media (min-width:1200px) {
+    .n-links {
+        display: flex;
+    }
+
+    .n-btn {
+        display: flex;
+    }
+
+    .menuicon {
+        display: none;
+    }
+
 }
