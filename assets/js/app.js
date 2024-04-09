@@ -7,3 +7,6 @@ heading.addEventListener("click", function () {
     hidetext.classList.toggle("active");
     icon.classList.toggle("iconup");
 })
+
+
+
