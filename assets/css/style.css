@@ -273,7 +273,7 @@
     position: absolute;
     right: -14px;
     z-index: 2;
-    top: 0%;
+    top: -1%;
     left: -12px;
 }
 
@@ -685,6 +685,10 @@
     width: 100%;
     background-color: #F6E300;
     z-index: 3;
+    top: 0px;
+}
+.mt-73{
+    margin-top: 73px;
 }
 .n-links:hover{
     color: red;
@@ -797,7 +801,7 @@
     }
 
     .dot-r::after {
-        right: -12px;
+        right: -14px;
         left: auto;
     }
 
