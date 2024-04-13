@@ -37,7 +37,7 @@
     line-height: 72px;
     color: black;
     padding-bottom: 24px;
-    padding-top: 66px;
+    padding-top: 67px;
 }
 
 .discover {
@@ -239,7 +239,7 @@
     position: absolute;
     top: 0%;
     height: 100%;
-    width: 3px;
+    width: 8px;
     background-color: #F4241E;
     left: 0%;
 
@@ -253,8 +253,7 @@
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    left: -12px;
-
+    left: -9px;
     z-index: 2;
     top: 0%;
 }
@@ -274,14 +273,14 @@
     right: -14px;
     z-index: 2;
     top: -1%;
-    left: -12px;
+    left: -9px;
 }
 
 .accordion {
     max-width: 992px;
     width: 100%;
     background-color: #FFF03F;
-    padding: 30px;
+    
     overflow: hidden;
     z-index: 1;
     margin-bottom: 10px;
@@ -298,6 +297,8 @@
 .text-parent {
     position: absolute;
     top: -175%;
+    padding: 30px;
+    padding-top: 0%;
 }
 
 .text-2 {
@@ -315,7 +316,7 @@
 
 .accordion-heading {
     cursor: pointer;
-    ;
+    padding: 30px;
 }
 
 .lastmail {
@@ -801,7 +802,7 @@
     }
 
     .dot-r::after {
-        right: -14px;
+        right: -16px;
         left: auto;
     }
 
@@ -838,7 +839,7 @@
 }
 
 @media (min-width:1200px) {
-    .gap-38 {
+    .gap-xl-38 {
         gap: 38px;
     }
 
